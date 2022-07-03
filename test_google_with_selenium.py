@@ -27,6 +27,7 @@ def driver():
     }
 
 
+
     # selenium grid standAlone
     #driver = webdriver.Remote("http://localhost:4444",dc,options=chrome_options)
     driver = webdriver.Remote("http://localhost:4444", dc)
