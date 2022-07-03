@@ -18,7 +18,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 def driver():
 
     dc = {
-        "browserName": "chrome",
+        "browserName": "firefox",
         "platformName": "Windows 10"
     }
 
@@ -35,8 +35,8 @@ def test_google_page_title(driver):
 
 def test_youtube_page_title(driver):
     driver.get('https://www.youtube.com')
-    title = driver.title
-    assert title == "Home - YouTube"
+    title =str(driver.title)
+    assert "youtube" in title.lower()
 
 def test_addition_of_2_and_5_simple(driver):
     driver.get('https://www.google.com')
