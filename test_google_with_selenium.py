@@ -18,7 +18,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 def driver():
 
     dc = {
-        "browserName": "firefox",
+        "browserName": "chrome",
         "platformName": "Windows 10"
     }
 
