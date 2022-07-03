@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="7.635" timestamp="2022-07-04T00:14:57.727317" hostname="DESKTOP-DRC6VE3"><testcase classname="test_google_with_selenium" name="test_google_page_title" time="7.383" /></testsuite></testsuites>
